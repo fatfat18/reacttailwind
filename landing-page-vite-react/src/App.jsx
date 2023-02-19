@@ -19,7 +19,7 @@ function App() {
       </div>
       <p className='text-5xl text-gray-900'>Vite + React</p>
       <div className="card">
-        <button className='button1' onClick={() => setCount((count) => count + 1)}>
+        <button className='hover:bg-sky-500 hover:text-white transition duration-500 h-10 w-36 bg-yellow-400 text-xl font-' onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
         <p>

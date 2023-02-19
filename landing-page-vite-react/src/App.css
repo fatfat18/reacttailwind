@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html{
+  font-family: Gilroy;
+}
+
 /*
 ! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com
 */
@@ -521,16 +526,12 @@ video {
 }
 
 #root {
-  max-width: 1280px;
-  min-width: 100px;
+  max-width: 100%;
+  min-width: 300px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: rgb(255, 231, 213);
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
 
 .logo {
@@ -573,19 +574,3 @@ video {
   color: #888;
 }
 
-.button1 {
-  background-color: cadetblue;
-  transition: .2s;
-}
-
-
-.button1:hover {
-  background-color: rgb(3, 72, 75);
-  color: white;
-  /* border: solid 1px rgb(251, 255, 0); */
-}
-
-
-.color4 {
-  background-color: cornflowerblue;
-}
