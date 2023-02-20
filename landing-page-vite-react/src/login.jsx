@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 export default function Login() {
   return (
-      <div className="min-h-full flex justify-end py-12 px-4 sm:px-6 lg:px-20 rounded-lg bg-zinc-50 lg:mr-60 border border-red-900 ">
+      <div className=" py-8 px-4 sm:px-6 lg:px-16 xl:rounded-lg bg-zinc-50 lg: border border-red-900 h-max ">
         <div className="max-w-md w-full space-y-8">
           <div>
             <img
@@ -14,7 +14,7 @@ export default function Login() {
               src={logo}
               alt="Workflow"
             />
-            <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Sign in to your account</h2>
+            <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Sign in to your <span className='text-red-500 text-4xl'>SafeSight </span>Account</h2>
            
           </div>
 
