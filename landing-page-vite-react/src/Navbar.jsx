@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 export const Navbar = () => {
     return (
-        <nav className='text-2xl text-white bg-slate-800 items-center flex justify-center w-80 '>
+        <nav className='text-2xl text-white bg-slate-800 items-center flex justify-center w-screen '>
             <ul>
                 <li>
                     <Link to="/" className='hover:text-yellow-200'> Home </Link>
