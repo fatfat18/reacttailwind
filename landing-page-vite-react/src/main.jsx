@@ -8,34 +8,17 @@ import { BrowserRouter } from 'react-router-dom';
 import Login from './login'
 
 
+
 const rootElement = document.getElementById('test');
 const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <BrowserRouter>
-
+  <BrowserRouter>
       <App />
-    </BrowserRouter>
-  </StrictMode>,
-  
+  </BrowserRouter>
+  </StrictMode>
 );
-
-
-
-const rootElement2 = document.getElementById('login');
-const root2 = createRoot(rootElement2);
-
-root2.render(
-  <StrictMode>
-    <BrowserRouter>
-
-      <Login />
-    </BrowserRouter>
-  </StrictMode>,
-  
-);
-
 
 
 
